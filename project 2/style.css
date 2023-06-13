@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Raleway-Regular";
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.items {
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+/* start nav bar */
+
+.logo-section {
+
+    margin-top: 20px;
+}
+
+.logo-section a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-right: 2rem;
+    
+}
+
+.logo-section a img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.logo-section a:hover {
+    font-size: 24px;
+    color: rgb(242, 15, 11);
+}
+
+.list-wrapper li  {
+     margin-right: 20px;
+}
+
+/*  main section  */
+ .main-section {
+    margin-top: 90px;
+ }
+
+.main-left-side h1 {
+    font-size: 64px;
+    line-height: 74px;
+    color: #3c2f60;
+    font-style: normal;
+    font-weight: 600;
+   
+}
+
+.main-left-side h1 span {
+    color: #5955b3;
+}
+
+
+.main-left-side p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    letter-spacing: 0.01em;
+
+}
+
+.main-left-side button{
+    margin-top: 30px;
+}
+
+.main-section .main-right-side img {
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
